@@ -22,6 +22,7 @@ urlpatterns = [
     path('api/',include('gymapi.urls')),
     path('user/', views.UserList.as_view()),
     path('customer/', views.customerList.as_view()),
+    path('login/', views.LoginUser.as_view())
 ]
 
 
